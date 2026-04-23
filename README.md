@@ -1,7 +1,5 @@
 # MIE1613 Final Project
 
-Portfolio reinforcement-learning experiments in PyTorch: policy-gradient variants, actor–critic, belief-aware actor–critic, hindsight-style training, and leave-one-out policy gradients, with in-sample and out-of-sample evaluation artifacts.
-
 ## Requirements
 
 - Python 3.9+ recommended  
@@ -52,6 +50,3 @@ Use `python <script>.py --help` if the script exposes CLI options.
 
 `evaluation/oos_2020_2025/oos_bootstrap_paths_long.csv` is **not** tracked in Git (GitHub file-size limits). Regenerate it with your evaluation pipeline if you need it on a new clone; summaries derived from it remain in the smaller CSVs under `evaluation/oos_2020_2025/`.
 
-## License / course use
-
-Course project for MIE1613; adapt reuse to your institution’s academic integrity rules.
