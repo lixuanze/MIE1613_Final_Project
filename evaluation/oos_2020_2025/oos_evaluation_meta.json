@@ -1,0 +1,30 @@
+{
+  "oos_start": "2020-01-01",
+  "oos_end": "2025-12-31",
+  "n_oos_weeks": 313,
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "DIS",
+    "CMCSA",
+    "AMZN",
+    "HD",
+    "KO",
+    "JNJ",
+    "JPM",
+    "XOM"
+  ],
+  "bootstrap_horizon": 50,
+  "n_bootstrap_paths": 5000,
+  "action_mode": "mean",
+  "files": {
+    "bootstrap_long": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/oos_2020_2025/oos_bootstrap_paths_long.csv",
+    "bootstrap_summary": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/oos_2020_2025/oos_bootstrap_paths_summary.csv",
+    "bootstrap_aggregate": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/oos_2020_2025/oos_bootstrap_aggregate.csv",
+    "realized_weekly": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/oos_2020_2025/oos_realized_path_weekly.csv",
+    "metrics": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/oos_2020_2025/oos_portfolio_metrics.csv",
+    "combined_summary": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/oos_2020_2025/oos_combined_summary.csv",
+    "plot_all": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/oos_2020_2025/oos_cumulative_returns.png",
+    "plot_split": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/oos_2020_2025/oos_cumulative_returns_split.png"
+  }
+}

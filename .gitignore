@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.cursor/
+
+# Too large for GitHub normal Git (>100 MiB); keep locally or use Git LFS / release asset.
+evaluation/oos_2020_2025/oos_bootstrap_paths_long.csv

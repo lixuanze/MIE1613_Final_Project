@@ -1,0 +1,10 @@
+{
+  "n_paths_per_method": 5000,
+  "action_mode": "mean",
+  "eval_seed_base": 16130,
+  "long_csv": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/in_sample_paths_long.csv",
+  "summary_csv": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/in_sample_paths_summary.csv",
+  "aggregate_csv": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/in_sample_aggregate.csv",
+  "gradient_summary_csv": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/in_sample_training_stability_summary.csv",
+  "performance_vs_stability_csv": "/content/drive/MyDrive/MIE1613/Final Project/evaluation/in_sample_performance_vs_stability_summary.csv"
+}
